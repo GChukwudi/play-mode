@@ -1,7 +1,7 @@
 body {
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    min-height: 100%;
     background: #fae1dd;
 }
 .container {
@@ -9,8 +9,7 @@ body {
 }
 .valentines {
     position: absolute;
-    top: -100px;
-    right: -150px;
+    
     cursor: pointer;
     animation: up 3s linear infinite;
 }
