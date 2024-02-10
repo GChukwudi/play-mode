@@ -9,7 +9,8 @@ body {
 }
 .valentines {
     position: absolute;
-    top: 50px;
+    top: -100px;
+    right: -150px;
     cursor: pointer;
     animation: up 3s linear infinite;
 }
@@ -24,7 +25,9 @@ body {
 .envelope::before {
     content: '';
     position: absolute;
-    
+    width: 212px;
+    height: 212px;
+    background: red;
 }
 .front {
     position: absolute;
