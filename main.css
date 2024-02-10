@@ -73,3 +73,10 @@ body {
 .valentines::hover .card {
     transform: rotateY(180deg);
 }
+.card .text {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    color: #003049;
+    text-align: center;
+    line-height: 25px;
+}
