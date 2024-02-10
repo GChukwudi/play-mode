@@ -9,7 +9,8 @@ body {
 }
 .valentines {
     position: absolute;
-    
+    top: 250px;
+    left: -150px;
     cursor: pointer;
     animation: up 3s linear infinite;
 }
@@ -26,7 +27,11 @@ body {
     position: absolute;
     width: 212px;
     height: 212px;
-    background: red;
+    background: #f08080;
+    transform: rotate(45deg);
+    top: -105px;
+    left: 44px;
+    border-radius: 30px 0 0 0;
 }
 .front {
     position: absolute;
@@ -37,16 +42,15 @@ body {
     top: 5px;
     width: 0;
     height: 0;
-    z-index: 10;
+    z-index: 1;
 }
-/*
 .front::before {
-    content: '';
     position: absolute;
-    top: -95px;
-    left: -120;
+    content: '';
     border-left: 300px solid #fda996;
     border-top: 195px solid transparent;
+    left: -120px;
+    top: -95px;
 }
 .card {
     position: relative;
@@ -57,7 +61,11 @@ body {
     display: grid;
     place-items: center;
     transition: 1s;
+    top: -85px;
+    right: 95px;
+    z-index: -2;
 }
+/* 
 .card::before {
     content: '';
     position: absolute;
