@@ -68,4 +68,8 @@ body {
     right: 10px;
     bottom: 10px;
     border: 2px solid #003049;
+    border-style: groove;
+}
+.valentines::hover .card {
+    transform: rotateY(180deg);
 }
